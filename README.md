@@ -34,7 +34,7 @@ Musicwiki is a app where you can read about song albums and their artists. It pr
 </br>
 
 <h2>Album Page</h2>
-<h4>In Album tab view. If you click on any album. It takes you here(Album Page), here you can find album title,artist,image and a small summary about the album>
+<h4>In Album tab view. If you click on any album. It takes you here(Album Page), here you can find album title,artist,image and a small summary about the album</h4>
   <h4>It also provides a genre list, using which you switch to different genre page</h4>  
 <img src="https://firebasestorage.googleapis.com/v0/b/themillennialenewspaper-c24d3.appspot.com/o/GG_app%2FAlbumPage.png?alt=media&token=fb95e464-e4b8-4d20-ba15-3fbe75251a34" width="250" height="500" />
 
