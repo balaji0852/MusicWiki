@@ -1,6 +1,6 @@
 # MusicWiki
 
-Musicwiki is an android app developed over android sdk.
+Musicwiki is an android app.
 Musicwiki is a app where you can read about song albums and their artists. It provides wide variety of genres to explore
 
 
