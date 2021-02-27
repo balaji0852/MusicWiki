@@ -13,8 +13,7 @@ Musicwiki is a app where you can read about song albums and their artists. It pr
 
 </br>
 </br>
-<h2>Onclick of any Genre button, it takes you to that Genres page, where you can find artists,albums and tracks of the selected genre.</h3>'
-<h4>Here I have gone for Jazzzzzzzzzz(Jazz)</h4>
+<h4>Onclick of any Genre button, it takes you to that Genres page, where you can find artists,albums and tracks of the selected genre. Here I have gone for Jazzzzzzzzzz(Jazz)</h4>
 <img src="https://firebasestorage.googleapis.com/v0/b/themillennialenewspaper-c24d3.appspot.com/o/GG_app%2FGenrePage_Album.png?alt=media&token=9691bbf4-97b6-48c6-8ede-723c6ca32d05" width="250" height="500" />
 </br>
 <h2>Genre Page</h2>
