@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumPage">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/AlbumImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <RelativeLayout
+        android:id="@+id/AlbumImageLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignStart="@id/AlbumImage"
+        android:layout_alignLeft="@id/AlbumImage"
+        android:layout_alignTop="@id/AlbumImage"
+        android:layout_alignEnd="@id/AlbumImage"
+        android:layout_alignRight="@id/AlbumImage"
+        android:layout_alignBottom="@id/AlbumImage"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/BackButton"
+            android:layout_width="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_height="50dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/AlbumTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AlbumArtist"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/GenresList"
+        android:layout_below="@id/AlbumImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="63dp"/>
+
+        <TextView
+            android:id="@+id/AlbumDescription"
+            android:layout_below="@id/GenresList"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</ScrollView>

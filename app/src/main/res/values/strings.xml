@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GG_assignment</string>
+    <string name="musicWiki">musicwiki</string>
+    <string name="welcome">Welcome!</string>
+    <string name="extendText">choose a genre to start with</string>
+    <string name="albums">ALBUMS</string>
+    <string name="artists">ARTISTS</string>
+    <string name="tracks">TRACKS</string>
+    <string name="GenreTitle">Genre Title</string>
+    <string name="TopAlbums">Top Albums</string>
+    <string name="TopTracks">Top Tracks</string>
+    <string name="PlayCount">Play Count</string>
+    <string name="Followers">Followers</string>
+
+</resources>

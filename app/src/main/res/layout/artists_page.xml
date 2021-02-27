@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumPage">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ArtistImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <RelativeLayout
+            android:id="@+id/ArtistImageLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignStart="@id/ArtistImage"
+            android:layout_alignLeft="@id/ArtistImage"
+            android:layout_alignTop="@id/ArtistImage"
+            android:layout_alignEnd="@id/ArtistImage"
+            android:layout_alignRight="@id/ArtistImage"
+            android:layout_alignBottom="@id/ArtistImage"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/BackButton"
+                android:layout_width="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_height="50dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="13dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="5dp" />
+
+            <TextView
+                android:id="@+id/AlbumArtist"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PlayCount"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/AlbumArtist"
+                android:layout_marginTop="45dp"
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp" />
+            <TextView
+                android:text="@string/PlayCount"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="35dp"
+                android:layout_below="@id/PlayCount"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="35dp" />
+
+            <TextView
+                android:id="@+id/Followers"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/AlbumArtist"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="25dp"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp" />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/Followers"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="35dp"
+                android:layout_width="wrap_content"
+                android:textSize="17sp"
+                android:text="@string/Followers"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/GenresList"
+            android:layout_below="@id/ArtistImageLayout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="63dp"/>
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/ArtistDescription"
+            android:layout_below="@id/GenresList"
+            android:layout_marginTop="17dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/TopTracksHeader"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/ArtistDescription"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/TopTracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/TopTracks"
+            android:layout_below="@+id/TopTracksHeader"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/TopAlbumHeader"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/TopAlbums"
+            android:layout_below="@id/TopTracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/TopAlbums"
+            android:layout_below="@+id/TopAlbumHeader"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    </RelativeLayout>
+</ScrollView>

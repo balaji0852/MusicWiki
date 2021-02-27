@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:padding="3dp">
+
+    <Button
+        android:id="@+id/tag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        tools:ignore="ButtonStyle"/>
+
+    <Button
+        android:id="@+id/tag2"
+        android:layout_toRightOf="@+id/tag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="ButtonStyle"
+        android:background="@drawable/buttons"
+        android:padding="2dp"
+        android:textSize="12sp"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_toEndOf="@+id/tag1" />
+    <Button
+        android:id="@+id/tag3"
+        android:layout_toRightOf="@+id/tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:textSize="12sp"
+        tools:ignore="ButtonStyle"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_toEndOf="@+id/tag2" />
+
+</RelativeLayout>
