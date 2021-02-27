@@ -5,10 +5,10 @@ Musicwiki is a app where you can read about song albums and their artists. It pr
 
 
 <p>This is the first page of MusicWiki, Here you can select your favourite genre and explore</p>
-
 <img src="https://firebasestorage.googleapis.com/v0/b/themillennialenewspaper-c24d3.appspot.com/o/GG_app%2FFrontPage.png?alt=media&token=511d5bd9-dc40-4258-a09c-55f502fbfe7b" width="250" height="500" />
 </br>
-<h3>User can expand the list of genres, by clicking the upwards arrow button </p>
+</br>
+<h3>User can expand the list of genres, by clicking the upwards arrow button </h3>
 <img src="https://firebasestorage.googleapis.com/v0/b/themillennialenewspaper-c24d3.appspot.com/o/GG_app%2FExtendedFrontPage.png?alt=media&token=6f2957ef-b751-44da-bd36-8b10ed6d7385" width="250" height="500" />
 
 </br>
